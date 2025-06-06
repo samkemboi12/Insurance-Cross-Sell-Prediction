@@ -12,7 +12,7 @@ Segment customers for targeted marketing.
 Predict customer conversion using a classification model.
 
 # Exploratory Data Analysis (EDA)
-##Annual_premium level and Insurance status vs customer response rate.:
+## Annual_premium level and Insurance status vs customer response rate.:
 ![download](https://github.com/user-attachments/assets/d508b816-c64e-4145-8597-2cd0fc5c847a)
 
 ## Response Rate By Age group and Gender
@@ -36,13 +36,18 @@ Scaled numerical variables like age and premium
 Split data into training and validation sets
 
 
-# Models Trained
-Model	Accuracy	    Class 1 Recall	ROC AUC
-Logistic Regression	   0.88	0.00	~0.50
-Random Forest          0.84	~0.35	~0.80
-LightGBM	             0.70	 0.93	 0.86  (Best)
+# Models Trained  
+Logistic Regression	  
+Random Forest          
+LightGBM	  
 
 LightGBM had the best ability to detect interested customers (high recall), which is critical in marketing use cases.
+# Model Performance Comparison
+Model	Accuracy	Class 1 Recall	Class 1 Precision	F1 Score (Class 1)	ROC AUC
+Logistic Regression	0.88	0.00	0.40	0.00	0.8342
+XGBoost	0.72	0.90	0.29	0.44	0.8558
+Random Forest	0.69	0.94	0.28	0.43	0.8548
+LightGBM	0.70	0.93	0.28	0.43	0.8578
 
 
 # Recommendations
