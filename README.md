@@ -39,7 +39,8 @@ Split data into training and validation sets
 # Models Trained  
 Logistic Regression	  
 Random Forest          
-LightGBM	
+LightGBM	                                                                                                                                                                                                   
+
 XGBoost
 
 LightGBM had the best ability to detect interested customers (high recall), which is critical in marketing use cases.
