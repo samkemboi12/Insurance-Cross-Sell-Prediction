@@ -39,15 +39,20 @@ Split data into training and validation sets
 # Models Trained  
 Logistic Regression	  
 Random Forest          
-LightGBM	  
+LightGBM	
+XGBoost
 
 LightGBM had the best ability to detect interested customers (high recall), which is critical in marketing use cases.
+
+
 # Model Performance Comparison
-Model	Accuracy	Class 1 Recall	Class 1 Precision	F1 Score (Class 1)	ROC AUC
-Logistic Regression	0.88	0.00	0.40	0.00	0.8342
-XGBoost	0.72	0.90	0.29	0.44	0.8558
-Random Forest	0.69	0.94	0.28	0.43	0.8548
-LightGBM	0.70	0.93	0.28	0.43	0.8578
+
+| Model               | Accuracy | Class 1 Recall | Class 1 Precision | F1 Score (Class 1) | ROC AUC |
+|--------------------|----------|----------------|--------------------|---------------------|---------|
+| Logistic Regression| 0.88     | 0.00           | 0.40               | 0.00                | 0.8342  |
+| XGBoost            | 0.72     | 0.90           | 0.29               | 0.44                | 0.8558  |
+| Random Forest      | 0.69     | 0.94           | 0.28               | 0.43                | 0.8548  |
+| LightGBM           | 0.70     | 0.93           | 0.28               | 0.43                | 0.8578  |
 
 
 # Recommendations
