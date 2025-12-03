@@ -7,7 +7,6 @@ This project aims to help TruSecure Insurance Company identify which health insu
 are likely to also purchase vehicle insurance.
 The solution involves exploratory data analysis (EDA), feature engineering, and predictive 
 modeling using machine learning.
->>>>>>> f5f33de (Update README.md)
 
 # Business Problem
 TruSecure is launching a new vehicle insurance product and wants to:
